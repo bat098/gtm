@@ -20,8 +20,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      {/* <GoogleTagManager gtmId="GTM-TB77XH9H" /> */}
-      <GoogleTagManager gtmId="GTM-TB77XH9A" />
+      <GoogleTagManager gtmId="GTM-TB77XH9H" />
+
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
